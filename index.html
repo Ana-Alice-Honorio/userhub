@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>userhub</title>
+    <link rel="icon" type="image/x-icon" href="/images/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Sistema de Cadastro de Usuários</h1>
+
+    <form id="user-form">
+      <input type="text" id="name" placeholder="Nome" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="password" id="password" placeholder="Senha" required />
+      <button type="submit">Cadastrar</button>
+    </form>
+
+    <h2>Usuários Cadastrados:</h2>
+    <ul id="user-list"></ul>
+
+    <p id="feedback" class="feedback"></p>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
