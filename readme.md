@@ -11,4 +11,5 @@
 
 Exemplo de uso:
 
+![Userhub com campos grandes](images/userhub-preenchido.png)
 ![Usabilidade do UserHub](images/userhub-video.gif)

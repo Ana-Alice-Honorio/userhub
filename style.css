@@ -44,10 +44,12 @@ li {
   background-color: #f0f0f0;
   margin: 5px 0;
   text-align: center;
-  width: 400px;
+  width: 330px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 button.delete-btn {
